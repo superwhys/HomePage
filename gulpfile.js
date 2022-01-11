@@ -66,8 +66,9 @@ gulp.task('watch', function () {
 	gulp.watch('./src/css/**/*.scss', gulp.parallel(['css']))
 	gulp.watch('./src/js/*.js', gulp.parallel(['js']))
 	connect.server({
+		host: '0.0.0.0',
 		root: 'dist',
 		livereload: true,
-		port: 8080
+		port: 8081
 	})
 })

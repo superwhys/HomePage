@@ -110,4 +110,25 @@
 			}
 		}
 	}
+
+	.footer {
+        width: 100%;
+        color: white;
+        float: left;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        margin-bottom: 30px;
+        font-size: 12px;
+        /* background-color: blue; */
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: rgb(0, 81, 255);
+        }
+    }
 }
